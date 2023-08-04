@@ -1,0 +1,25 @@
+@import '../../App.scss';
+.buttonStyle{
+    @include buttonStyle;
+}
+.form-control {
+    margin-bottom: 5px;
+    &:focus{
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    }
+    
+  }
+
+.form{
+    margin: 10px 0 10px 0;
+    display: flex;
+    justify-content:space-around;
+    .formElement{
+        padding: auto;
+    }
+}
+.fw-normal{
+    color: $theme-color;
+}

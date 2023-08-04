@@ -1,0 +1,28 @@
+@import '../../App.scss';
+
+.container-fluid{
+    // color:$theme-color;
+    font-weight:bold;
+    .restrictedHeight{
+        max-height: 34px;
+    }
+}
+
+.articles{
+    background-color: $theme-color;
+    border-left: groove 2px grey;
+}
+
+.marginLeft{
+    margin-left: 20px;
+    a{
+        text-decoration:none;
+        color: $theme-color;
+        
+    }
+    &:hover{
+       a{
+        color:white;
+       } 
+    }
+}

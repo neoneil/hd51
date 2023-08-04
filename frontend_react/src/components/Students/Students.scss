@@ -1,0 +1,45 @@
+@import '../../App.scss';
+.buttonStyle{
+  @include buttonStyle;
+}
+.row{
+    margin:2%;
+    display: flex;
+}
+.card{
+    background-color: $card-color;
+    justify-content:center;
+    font-size: large;
+    font-weight: bold;
+    margin: 8px;
+    &:hover {
+        background-color:$card-hover-color;
+    }
+
+} 
+
+.fw-normal{
+    color: $theme-color;
+}
+
+
+.loader {
+    border: 6px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 6px solid $theme-color;
+    width: 60px;
+    height: 60px;
+    -webkit-animation: spin 1s linear infinite; /* Safari */
+    animation: spin 1s linear infinite;
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }

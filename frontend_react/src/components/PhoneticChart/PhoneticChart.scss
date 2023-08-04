@@ -1,0 +1,94 @@
+@import '../../App.scss';
+
+.wrap {
+    .showKeyPressed {
+        margin-left: 0px;
+        font-family: 'Times New Roman', Times, serif;
+        width: auto;
+        height: 50px;
+        color: $theme-color;
+        font-size: 1.8em;
+        font-weight: 200;
+        border-radius: 0.375rem;
+        border: 1px solid $theme-color;
+    }
+}
+.examples {
+    margin-left: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    width:460px;
+    height: 50px;
+    color: $theme-color;
+    font-size: 1.6em;
+    font-weight: 200;
+    border-radius: 0.375rem;
+    border: 1px solid $theme-color;
+}
+.blockStyle {
+    width: 460px;
+    border-radius: 0.375rem;
+    background-color: bisque;
+
+    .mono {
+        border-radius: 0.375rem;
+        width: auto;
+        background-color: blanchedalmond;
+
+        .inlineBlockVowels {
+            border-radius: 0.375rem;
+            //background-color: bisque;
+            text-align: left;
+        }
+    }
+
+    .diph {
+        border-radius: 0.375rem;
+        width: auto;
+
+        .inlineBlockVowels {
+            border-radius: 0.375rem;
+            text-align: left;
+        }
+    }
+
+    .consonants {
+        border-radius: 0.375rem;
+        background-color: beige;
+
+        .inlineBlockConsonants {
+            width: 460px;
+            border-radius: 0.375rem;
+            text-align: left;
+        }
+    }
+
+}
+
+.keyStyle {
+    margin: 3px;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    position: relative;
+    color: $theme-color;
+    font-size: 1.8em;
+    border-radius: 0.375rem;
+    border: 1px solid $theme-color;
+    transition: .3s;
+
+    &:hover {
+        color: white;
+        background-color: $theme-color;
+    }
+}
+
+.myReact-icons {
+    color: $theme-color;
+    font-size: 25px;
+
+    &:hover {
+        .myReact-icons {
+            color: white;
+        }
+    }
+}

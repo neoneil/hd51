@@ -1,0 +1,23 @@
+@import '../../App.scss';
+.carousel{
+    max-height: 500px;
+    .d-block{
+        max-height: 500px;
+    }
+}
+.row{
+    margin:2%;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+}
+.card{
+    background-color: $card-color;
+    justify-content:center;
+    font-size: large;
+    font-weight: bold;
+    margin: 8px;
+    &:hover {
+        background-color:$card-hover-color;
+    }
+
+} 

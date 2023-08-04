@@ -1,0 +1,67 @@
+@import '../../App.scss';
+
+.myReact-icons{
+    color:$theme-color;
+    font-size:25px;
+}
+
+.sidebar {
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    background-color: rgb(56, 50, 50);
+    margin: 0;
+    padding: 0;
+
+    header {
+        line-height: 70px;
+        color: $theme-color;
+        font-size: 22px;
+        user-select: none;
+    }
+
+    ul {
+        li {
+            list-style: none;
+            display: block;
+            line-height: 65px;
+            height: 100%;
+            width: 100%;
+            padding-right: 40px;
+            border-top: 1px solid rgba(255, 255, 255, .1);
+            border-bottom: 1px solid black;
+            transition: .3s;
+            text-align: left;
+
+            a {
+                // position: relative;
+                // left: -20px;
+
+                text-decoration: none;
+                color: white;
+                font-size: 18px;
+                box-sizing: border-box;
+            }
+
+            &:hover {
+                cursor: pointer;
+                padding-left: 10px;
+                a{
+                    color:$theme-color;
+                }
+            }
+            .subdropdown{
+                //border-bottom:1px solid black;
+                transition: .3s;
+                color:white;
+                &:hover {
+                    padding-left: 10px;
+                    
+                        color:$theme-color;
+                    
+                }
+            }
+
+        }
+    }
+}
