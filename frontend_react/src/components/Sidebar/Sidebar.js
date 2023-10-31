@@ -31,9 +31,9 @@ const Sidebar = () => {
                 <li><Link className="" to="/subnav"><IconContext.Provider value={{ className:"myReact-icons" }}>
                     <BsPersonFill />
                 </IconContext.Provider>Modules</Link></li>
-                <li><Link className="" to="/students"><IconContext.Provider value={{ className:"myReact-icons" }}>
+                <li><Link className="" to="/test"><IconContext.Provider value={{ className:"myReact-icons" }}>
                     <BsPersonFill />
-                </IconContext.Provider>Link 2</Link></li>
+                </IconContext.Provider>Test</Link></li>
                
             </ul>
         </div>

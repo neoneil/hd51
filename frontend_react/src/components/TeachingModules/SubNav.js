@@ -7,7 +7,6 @@ import { BsBook } from "react-icons/bs";
 import { BsFillPencilFill } from "react-icons/bs";
 import { BiLinkAlt } from "react-icons/bi";
 import { RiCharacterRecognitionLine } from "react-icons/ri";
-
 const SubNav = () => {
 
     return (
